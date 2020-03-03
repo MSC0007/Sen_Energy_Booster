@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/bdp1"
+            android:orientation="horizontal"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:padding="10dp"
+			android:background="#F2F2F2"
+			>
+			
+	  <LinearLayout 	    
+	    android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"	    
+	    >
+			<ImageView  android:id="@+id/img_ecosolaire"		
+						android:layout_width="wrap_content"		
+						android:layout_height="match_parent"		
+						android:layout_marginRight="10dp"
+						android:src="@drawable/ecosolaire"		
+						/>
+	
+			<TextView android:id="@+id/bdp1_txt"		
+					  android:layout_width="wrap_content"		
+					  android:layout_height="wrap_content"
+					  android:text="Sen Energie Booster V 1.0\n(c) Eco Solaire 2018 tous droits réservés\nSite: https://www.ecosolaire.com"
+					  android:textSize="14sp"		
+					  android:textColor="#000000"		
+					/>
+			
+		</LinearLayout>
+</LinearLayout>

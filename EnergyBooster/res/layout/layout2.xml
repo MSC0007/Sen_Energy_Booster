@@ -1,0 +1,107 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"  
+    style="Anim_Activite_Perso"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"   
+    tools:context="sn.sonko.eb.Activite2"
+    android:orientation="vertical" 
+    android:background="@drawable/fond_blue_blanc2" 
+     
+     >
+
+  <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        android:layout_weight="30"      
+      >
+      
+		     <TextView 
+		           android:id="@+id/tvid"
+		           android:layout_width="wrap_content"
+		           android:layout_height="wrap_content"
+		           android:text="-------"		           
+		           android:paddingTop="7dp"
+		           android:paddingBottom="7dp"
+		           android:layout_marginTop="60dp"
+		           android:textColor="#387dc5"
+		           android:textSize="18sp"
+		           android:textStyle="bold"	
+		          	           	           
+		           
+		           />
+    </LinearLayout>     
+    
+  
+  
+  
+     <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:orientation="horizontal" 
+        android:layout_weight="10"      
+      >
+			     <ListView 
+			        android:id="@+id/lv1"
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+			        android:layout_marginTop="1dp"
+			        android:layout_marginBottom="10dp"
+			        android:paddingTop="10dp"
+			        android:layout_gravity="center_vertical"
+			      >
+			       
+			    </ListView>   
+    
+    </LinearLayout> 
+    
+ 
+       <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="30"       
+      >
+                  <Button 
+				        android:id="@+id/hist_btn"
+				        android:layout_width="match_parent"
+				        android:layout_height="wrap_content"
+				        android:layout_gravity="center_vertical"					      			        
+				        android:text="@+string/hist_btn"
+				        android:textSize="24sp" 
+				        android:textColor="#FFFFFF"   
+				        android:background="#387dc5"				       
+				        android:layout_marginTop="1dp"
+				        android:layout_marginBottom="10dp"
+				        
+				        />
+    </LinearLayout>
+    
+      <!-- Date et Heure -->
+       <LinearLayout 
+       android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        android:gravity="center_horizontal" 
+        android:paddingTop="2dp" 
+        android:paddingBottom="0dp"    
+      
+      >
+	        <TextView 
+	            android:id="@+id/heure2"
+	            android:layout_width="wrap_content"
+	            android:layout_height="20dp"
+	            android:text="Date et Heure"           
+	            android:layout_gravity="center_horizontal"
+	            android:textSize="13sp"
+	            android:textColor="#FFFFFF"
+	            android:background="#387dc5"
+	            
+	            />
+           
+    </LinearLayout>
+
+</LinearLayout>

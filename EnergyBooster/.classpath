@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry exported="true" kind="lib" path="E:/LOGITECH/EDUCATIF/JAVA/ANDROID/LIBRARY/Volley/library-1.0.18.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/LOGITECH/EDUCATIF/JAVA/ANDROID/LIBRARY/Volley/library-1.0.18-sources.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/LOGITECH/EDUCATIF/JAVA/ANDROID/LIBRARY/AppCompat_V4-V7/appcompat_v7.jar"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>

@@ -1,0 +1,114 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"  
+    style="Anim_Activite_Perso"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin" 
+    tools:context="sn.sonko.eb.Activite1"
+    android:orientation="vertical" 
+    android:background="@drawable/fond_blue_blanc2" 
+     
+     >
+     
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="60dp"
+        android:orientation="horizontal"
+        android:paddingBottom="7dp"
+        android:paddingTop="7dp" >
+
+			     <TextView 
+			        android:id="@+id/tv_bt_status_label"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:text="Etat :" 
+			        android:textStyle="bold"
+			        android:textSize="20sp" 
+			        android:layout_marginTop="9dp"
+			        android:layout_marginRight="5dp" 
+			            
+			       
+			        />
+			    
+			    
+			     <TextView 
+			        android:id="@+id/tv_bt_status"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:text="..." 
+			        android:textSize="18sp" 
+			        android:layout_marginTop="9dp"
+			        android:textColor="#387dc5"
+			        android:textStyle="bold"
+			            
+			       
+			        />
+     </LinearLayout>
+     
+    
+  <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"   
+         >   
+     
+		    <Button 
+		        android:id="@+id/bt_scan"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_gravity="center"
+		        android:text="Actualiser"
+		        android:textSize="30sp" 
+				android:textColor="#FFFFFF"   
+			    android:background="#387dc5"	
+			    android:layout_weight="30"   
+				android:layout_marginTop="7dp"
+			    android:layout_marginBottom="10dp"
+			    
+		        />
+    
+    
+ </LinearLayout>  
+
+    
+    
+    <ListView 
+        android:id="@+id/lv3"
+        android:layout_width="match_parent"
+        android:layout_height="255dp"        
+        android:paddingTop="1dp"
+        android:paddingBottom="7dp"
+      >
+        
+    </ListView>
+
+      
+    <!-- Date et Heure -->
+       <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        android:gravity="center_horizontal" 
+        android:paddingTop="2dp" 
+        android:paddingBottom="0dp"      
+      
+      >
+	        <TextView 
+	            android:id="@+id/heure1"
+	            android:layout_width="wrap_content"
+	            android:layout_height="20dp"
+	            android:text="Date et Heure"           
+	            android:layout_gravity="center_horizontal"
+	            android:textSize="13sp"
+	            android:textColor="#FFFFFF"
+	            android:background="#387dc5"
+	            
+	            />
+
+</LinearLayout>
+
+       
+</LinearLayout>

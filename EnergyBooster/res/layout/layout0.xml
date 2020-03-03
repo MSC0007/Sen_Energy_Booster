@@ -1,0 +1,149 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="Anim_Activite_Perso"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="sn.sonko.eb.Activite0"
+    android:orientation="vertical"
+    android:background="@drawable/fond_blue_blanc2" >
+
+   <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:orientation="horizontal" 
+        android:layout_marginTop="55dp"   
+        android:layout_marginBottom="7dp"     
+       >
+   
+		    <TextView
+		        android:id="@+id/tv1"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:textSize="17sp"		    
+		        android:layout_gravity="center_horizontal"
+		        android:layout_marginTop="10dp"
+		        android:paddingTop="20dp"
+		        android:text="@+string/tv1txt" />        
+    
+    </LinearLayout>
+    
+
+       
+     
+      <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"        
+       >
+				    
+				    <Button 
+				        android:id="@+id/conn_bt1"
+				        android:layout_width="wrap_content"
+				        android:layout_height="wrap_content"
+				        android:layout_gravity="center"				        
+				        android:text="@+string/conn_bt1_txt"
+				        android:textSize="27sp" 
+				        android:textColor="#FFFFFF"   
+				        android:background="#387dc5"
+				        android:layout_weight="30"
+				        android:layout_marginTop="5dp"
+				        android:layout_marginBottom="7dp"
+				        
+				        />
+       </LinearLayout>  
+       
+      
+       <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal" 
+        android:layout_marginTop="5dp"   
+        android:layout_marginBottom="5dp"     
+       >
+   
+		    <TextView		       
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:textSize="17sp"		    
+		        android:layout_gravity="center_horizontal"
+		        android:layout_marginTop="1dp"
+		        android:paddingTop="20dp"
+		        android:text="@+string/tv2txt" />        
+    
+    </LinearLayout>
+  
+       
+        <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:orientation="horizontal">
+				    
+				    <Button 
+				        android:id="@+id/bt_activer"
+				        android:layout_width="wrap_content"
+				        android:layout_height="wrap_content"
+				        android:layout_gravity="center"				        
+				        android:text="@+string/bt_allumer_txt"				      
+				        android:layout_weight="30"
+				        android:layout_marginTop="10dp"
+				        android:layout_marginBottom="10dp"
+				        android:layout_marginRight="10dp"
+				        android:textColor= "#FFFFFF"  
+		                android:textSize ="20sp" 
+		                android:background="#387dc5" 
+				        style="bouton_bluetooth"				        
+				        />
+				    
+				    
+				    
+				     <Button 
+				        android:id="@+id/bt_eteindre"
+				        android:layout_width="wrap_content"
+				        android:layout_height="wrap_content"
+				        android:layout_gravity="center"				        
+				        android:text="@+string/bt_eteindre_txt"				       
+				        android:layout_weight="30"
+				        android:layout_marginTop="10dp"
+				        android:layout_marginBottom="10dp"
+				        android:textColor= "#FFFFFF"  
+		                android:textSize ="20sp" 
+		                android:background="#387dc5" 				        
+				        />
+				    
+				    
+       </LinearLayout>  
+      
+      
+       
+       
+    
+    <!-- Date et Heure -->
+       <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        android:gravity="center_horizontal" 
+        android:paddingTop="23dp" 
+        android:paddingBottom="0dp"      
+      
+      >
+	        <TextView 
+	            android:id="@+id/heure0"
+	            android:layout_width="wrap_content"
+	            android:layout_height="20dp"
+	            android:text="Date et Heure"           
+	            android:layout_gravity="center_horizontal"
+	            android:textSize="13sp"
+	            android:textColor="#FFFFFF"
+	            android:background="#387dc5"
+	            
+	            />
+           
+    </LinearLayout>
+     
+  
+
+</LinearLayout>

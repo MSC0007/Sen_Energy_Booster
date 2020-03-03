@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Sen Energy Booster</string>
+    <string name="app_name1">Conn... Bluetooth</string>
+    <string name="app_name2">Status / Historique</string>
+    <string name="app_name3">Péripheriques Bluetooth</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Parametres</string>
+    <string name="tv1txt">Cliquez sur le bouton \"Rechercher\" pour afficher la liste des périphériques bluetooth disponibles (Régulateurs de charge MPPT connectés)</string>
+    <string name="tv2txt">Cliquez sur le bouton \"Activer BT\" pour activer le bluetooth (choisir \"Autoriser\"), pour le désactiver cliquez sur \"Desactiver BT\"</string>
+    <string name="conn_bt1_txt">Rechercher</string>
+    <string name="hist_btn">Historique Production</string>    <string name="bt_allumer_txt">Activer BT</string>
+    <string name="bt_eteindre_txt">Désactiver BT</string>
+    <string name="bt_visibilite_txt">Visiblite BT</string>
+    <string name="menu_search">Recherche</string> 
+    <string name="menu_refresh">Raffraichir</string> 
+    <string name="menu_help">aide</string> 
+    <string name="menu_about">A propos</string> 
+    <string name="title_activity_activite1">Activite1</string>    
+    <string name="app_name4">Historique Production...</string>
+    <string name="app_name5">Aide sur l\'application ...</string>
+    <string name="strbd1">Appuyez sur le bouton "Afficher l\'historique de production" pour afficher toute l\'historique de production éléctrique mensuel de votre système !</string>
+    <string name="strbd2">Appuyez sur le bouton \"Synchroniser les données\" pour sysnchoniser l\'application avec les serveurs d\' Eco Solaire !</string>
+    
+    
+    <string name="aide1"> Pour nos clients qui besoins de système solaires autonome performants et de dernière génération, Eco solaire est en train de concevoir des supports mobiles pour panneaux solaires et des régulateurs de technologies MPPT connectés très performant afin de booster significativement la production électrique des systèmes photovoltaïques existants.  
+Non seulement nos produits seront à la pointe de la technologie, mais ils couteront moins chers que ceux de la concurrence afin d’être accessibles à toutes les bourses et avec le label « Made in Sénégal ».
+</string>
+    <string name="aide2"> \nPrésentation de l\'application:</string>
+    <string name="aide3"> Activation du Bluetooth: \nCliquez sur autoriser pour activer le bluetooth</string>
+    <string name="aide4"> On voit bien que l\'application est en train d\'activer le bluetooth</string>
+    <string name="aide5"> Recherche Bluetooth: \nA ce niveau si votre regulateur MPPT n\'est pas dans la liste des périphériques associés vous pouvez cliquer sur le bouton Actualiser\nVous avez aussi en bas de l\'écran la date du jour</string>
+    
+    <string name="aide6">- Cliquez sur le nom du régulateur pour s\'y connecter.  </string>
+    <string name="aide7"> - Une fois connecté au régulateur, l\'application \"Sen Energie Booster\"affiche toutes les informations du systeme provenant du régulateur (Penssance, tension, courant, état de charge, niveau de charge, température, etc ..)  </string>
+    <string name="aide8"> - Cliquez sur le bouton \"Historique Production\" pour afficher toute l\'Historique de production électrique journalier et mensuel. </string>
+    <string name="aide9"> - Cliquez sur le bouton \"Afficher Historique de Production\" si ce dernier n\'est pas affiché. </string>
+    <string name="aide10"> - Sur l\'image suivante, nous pouvons voir les informations détaillées sur la production électrique journalier.  </string>
+    
+    
+    <string name="aide11"> - l\'application \"Sen Energie Booster\"  offre la possibilité de stocker les informations concernant la quantité d\'electricité produite dans une base de données distante d\4Eco Solqire. Pour Cela, il suffit de cliquer sur le bouton  \"Synchroniser les données\". </string>
+    <string name="aide12"> ....  </string>
+    <string name="aide13"> ....  </string>
+    <string name="aide14"> ....  </string>
+    <string name="aide15"> ....  </string>
+    <string name="aide16"> ....  </string>
+    <string name="aide17"> ....  </string>
+    
+    <string name="copy_right">(c) Eco Solaire 2018 tous droits réservés </string>
+
+</resources>

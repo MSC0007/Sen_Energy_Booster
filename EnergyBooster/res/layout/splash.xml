@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"    
+    tools:context="sn.sonko.eb.Activite0"
+    android:background="#387dc5"
+     >
+    
+    
+    
+
+<ImageView 
+    android:id="@+id/iv1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerInParent="true"
+    android:src="@drawable/splash"
+    
+    />
+
+
+
+  <TextView
+        android:id="@+id/tvspl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:textSize="12sp"
+        android:textColor="#FFFFFF"
+        android:gravity="center_horizontal"
+        android:layout_alignParentBottom="true"
+        android:text="(C) 2018 By M. Pape Moussa SONKO" />
+
+
+
+
+
+</RelativeLayout>
